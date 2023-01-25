@@ -212,13 +212,14 @@ img {
 }
 
 .title {
-  top: -50px;
-  left: 81px;
+  /* top: -50px; */
+  left: 130px;
   width: 765px;
   height: 716px;
   position: absolute;
-  background: url(../images/titile.png);
+  background: url(../images/finalPhone.png);
   z-index: 4;
+  background-repeat: no-repeat;
 }
 
 
