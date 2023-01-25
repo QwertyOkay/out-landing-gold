@@ -197,12 +197,6 @@ img {
 }
 }
 
-@media (max-height: 900px) {
-.slot-container {
-    left: -182%;
-}
-}
-
 @media (max-width: 785px) {
 .slot-container {
     left: -201%;
