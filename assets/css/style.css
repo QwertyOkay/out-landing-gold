@@ -31,9 +31,13 @@ ul li {
   margin: 0 1.5rem 0 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 
 body {
-  font-family: 'Sofia Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: absolute;
@@ -105,7 +109,6 @@ img {
 
 @media (max-height: 1080px) {
 .bg {
-    background-size: 1784px;
     height: 1123px;
 }
 }
@@ -113,21 +116,18 @@ img {
 @media (max-height: 1000px) {
 
   .bg {
-      background-size: 1708px;
       height: 1080px;
   }
   }
 
 @media (max-height: 900px) {
   .bg {
-      background-size: 1463px;
       height: 925px;
   }
   }
 
 @media (max-width: 785px) {
   .bg {
-      background-size: 1056px;
       height: 710px;
   }
   }
@@ -329,14 +329,17 @@ img {
 
 .bonus {
   top: 710px;
-  left: -21px;
-  width: 1000px;
-  height: 125px;
-  position: absolute;
-  background: url(../images/bonus.png);
-  -webkit-transform: scale(.6);
-  -ms-transform: scale(.6);
-  transform: scale(.6);
+    left: 105px;
+    width: 1000px;
+    /* height: 18px; */
+    position: absolute;
+    /* background: url(../images/bonus.png); */
+    -webkit-transform: scale(.6);
+    -ms-transform: scale(.6);
+    transform: scale(.6);
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
 }
 
 .line {
