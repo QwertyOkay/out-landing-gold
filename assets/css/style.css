@@ -371,6 +371,30 @@ img {
     color: #ffab13;
 }
 
+.payments {
+  top: 955px;
+    left: 223px;
+    width: 513px;
+    /* height: 57px; */
+    position: absolute;
+    left: 160px;
+    /* width: 1000px; */
+    /* height: 18px; */
+    -webkit-transform: scale(.6);
+    -ms-transform: scale(.6);
+    transform: scale(.6);
+    font-size: 100px;
+    font-weight: 800;
+    color: #ffab13;
+    width: 100%;
+    margin: 0px!important;
+}
+
+.imgP {
+  width: 75px;
+    height: 75px;
+}
+
 .providers {
   top: 1060px;
   left: -125px;
@@ -496,4 +520,16 @@ img {
   z-index: 1;
   -webkit-animation: blink ease-in-out 2s infinite;
   animation: blink ease-in-out 2s infinite;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-cc-mastercard {
+  width: 1.2861328125em;
 }
