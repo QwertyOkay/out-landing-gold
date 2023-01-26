@@ -329,7 +329,7 @@ img {
 
 .bonus {
   top: 710px;
-    left: 105px;
+    left: 135px;
     width: 1000px;
     /* height: 18px; */
     position: absolute;
@@ -510,6 +510,8 @@ img {
   z-index: 3;
 }
 
+/* STARS ORIGINAL */
+
 .stars {
   top: -17px;
   left: 222px;
@@ -520,6 +522,19 @@ img {
   z-index: 1;
   -webkit-animation: blink ease-in-out 2s infinite;
   animation: blink ease-in-out 2s infinite;
+}
+
+/* STARS COINS */
+.stars2 {
+  top: -22px;
+    left: 128px;
+    width: 713px;
+    height: 324px;
+    position: absolute;
+    background: url(../images/coins.png);
+    z-index: 1;
+    -webkit-animation: blink ease-in-out 2s infinite;
+    animation: blink ease-in-out 2s infinite;
 }
 
 .icon {
