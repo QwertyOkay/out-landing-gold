@@ -10,6 +10,18 @@ html, div, a, img {
     vertical-align: baseline;
 }
 
+html {
+
+  overflow: hidden;
+  
+  }
+
+  body {
+
+    overflow-x: hidden;
+    
+    }
+
 img {
   overflow-clip-margin: content-box;
   overflow: clip;
