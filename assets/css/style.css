@@ -358,7 +358,7 @@ img {
   width: 513px;
   height: 57px;
   position: absolute;
-  background: url(../images/benefits.svg);
+  /* background: url(../images/benefits.svg); */
 }
 
 .providers {
