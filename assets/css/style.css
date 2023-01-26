@@ -353,12 +353,22 @@ img {
 }
 
 .benefits {
-  top: 900px;
+  top: 850px;
   left: 223px;
   width: 513px;
   height: 57px;
   position: absolute;
   /* background: url(../images/benefits.svg); */
+  left: 85px;
+    width: 1000px;
+    /* height: 18px; */
+        /* background: url(../images/bonus.png); */
+    -webkit-transform: scale(.6);
+    -ms-transform: scale(.6);
+    transform: scale(.6);
+    font-size: 100px;
+    font-weight: 800;
+    color: #ffab13;
 }
 
 .providers {
